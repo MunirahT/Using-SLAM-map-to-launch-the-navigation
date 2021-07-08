@@ -27,7 +27,10 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 ```
-
+in this step I face an error I solved  using this command:
+```
+sudo apt-get install ros-melodic-dwa-local-planner
+```
    **3.Estimate Initial Pose**
      
 1-Click the 2D Pose Estimate button in the RViz menu.
